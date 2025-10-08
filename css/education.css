@@ -1,14 +1,50 @@
 @import url('style.css');
 
+/* ---- Interactive Gradient Background ---- */
+#interactive-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: radial-gradient(circle at center, #1f2833, #0b0c10);
+  transition: background 0.2s ease;
+}
+
+/* ---- Content ---- */
 .content {
   max-width: 800px;
-  margin: 4rem auto;
+  margin: 6rem auto 4rem;
   padding: 2rem;
-  background: #0b0c10;
+  background: rgba(11, 12, 16, 0.8);
   border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  backdrop-filter: blur(6px);
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.content h1 {
+  color: #66fcf1;
+  margin-bottom: 2rem;
 }
 
 .edu-item {
   margin-bottom: 2rem;
+}
+
+.edu-item h2 {
+  color: #45a29e;
+}
+
+.edu-item p {
+  color: #c5c6c7;
+}
+
+/* Highlight active nav link */
+.nav-links a.active {
+  color: #66fcf1;
+  border-bottom: 2px solid #66fcf1;
 }
