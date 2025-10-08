@@ -1,4 +1,4 @@
-/* Reset & General */
+/* ---- Reset & General ---- */
 * {
   margin: 0;
   padding: 0;
@@ -9,9 +9,11 @@
 body {
   color: #fff;
   overflow-x: hidden;
+  overflow-y: auto;
+  background: #0b0c10;
 }
 
-/* Particles Background */
+/* ---- Particles.js container ---- */
 #particles-js {
   position: fixed;
   top: 0;
@@ -19,19 +21,48 @@ body {
   width: 100%;
   height: 100%;
   background-color: #0b0c10;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
   z-index: -1;
 }
 
-/* Navbar */
+/* ---- Stats.js counter ---- */
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 80px;
+  color: #13e8e9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  border-radius: 0 0 3px 3px;
+  z-index: 3;
+}
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+/* ---- Navigation ---- */
 .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background: rgba(0, 0, 0, 0.5);
-  position: sticky;
-  top: 0;
-  backdrop-filter: blur(5px);
+  z-index: 5;
+  backdrop-filter: blur(6px);
 }
 
 .logo {
@@ -57,7 +88,7 @@ body {
   color: #66fcf1;
 }
 
-/* Hero Section */
+/* ---- Hero Section ---- */
 .hero {
   height: 100vh;
   display: flex;
@@ -66,6 +97,8 @@ body {
   flex-direction: column;
   text-align: center;
   padding: 0 20px;
+  z-index: 2;
+  position: relative;
 }
 
 .hero h1 {
@@ -95,14 +128,16 @@ body {
   color: #0b0c10;
 }
 
-/* Footer */
+/* ---- Footer ---- */
 footer {
   text-align: center;
   padding: 20px;
   background: rgba(0, 0, 0, 0.7);
   position: relative;
+  z-index: 2;
 }
 
+/* ---- Cursor Trail (optional visual enhancement) ---- */
 #cursor-trail {
   position: fixed;
   top: 0;
