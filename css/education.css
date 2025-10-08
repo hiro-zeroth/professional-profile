@@ -1,61 +1,61 @@
 /* Import your global styles */
-@import url('style.css');
+@import url('style.css'); 
 
-/* ---- Override any light backgrounds ---- */
-body {
-  background: #0b0c10 !important;
-  color: #0b0c10;
-  overflow-x: hidden;
-  overflow-y: auto;
-  position: relative;
-}
+/* ---- Override any light backgrounds ---- */ 
+body { 
+background: #0b0c10 !important; 
+color: #0b0c10; 
+overflow-x: hidden; 
+overflow-y: auto; 
+position: relative; 
+} 
 
-/* ---- Interactive Gradient Background ---- */
-#interactive-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background: radial-gradient(circle at center, #1f2833, #0b0c10);
-  transition: background 0.2s ease;
-}
+/* ---- Interactive Gradient Background ---- */ 
+#interactive-bg { 
+position: fixed; 
+top: 0; 
+left: 0; 
+width: 100%; 
+height: 100%; 
+z-index: -1; 
+background: radial-gradient(circle at center, #1f2833, #0b0c10); 
+transition: background 0.2s ease; 
+} 
 
-/* ---- Content Box ---- */
-.content {
-  max-width: 800px;
-  margin: 6rem auto 4rem;
-  padding: 2rem;
-  background: rgba(20, 20, 25, 0.7); /* darker transparent card */
-  border-radius: 10px;
-  box-shadow: 0 2px 20px rgba(0,0,0,0.4);
-  backdrop-filter: blur(8px);
-  position: relative;
-  z-index: 2;
-  text-align: center;
-}
 
-/* ---- Text Styling ---- */
-.content h1 {
-  color: #66fcf1;
-  margin-bottom: 2rem;
-}
+/* ---- Content Box ---- */ 
+.content { 
+max-width: 800px; 
+margin: 6rem auto 4rem; 
+padding: 2rem; background: rgba(20, 20, 25, 0.7); 
 
-.edu-item {
-  margin-bottom: 2rem;
-}
+/* darker transparent card */ 
+border-radius: 10px; 
+box-shadow: 0 2px 20px rgba(0,0,0,0.4); 
+backdrop-filter: blur(8px); 
+position: relative; z-index: 2; 
+text-align: center; 
+} 
 
-.edu-item h2 {
-  color: #45a29e;
-}
+/* ---- Text Styling ---- */ 
+.content h1 { 
+color: #66fcf1; 
+margin-bottom: 2rem; 
+} 
 
-.edu-item p {
-  color: #c5c6c7;
-}
+.edu-item { 
+margin-bottom: 2rem; 
+} 
 
-/* ---- Navbar highlight ---- */
-.nav-links a.active {
-  color: #66fcf1;
-  border-bottom: 2px solid #66fcf1;
-}
+.edu-item h2 { 
+color: #45a29e; 
+} .edu-item 
+
+p { 
+color: #c5c6c7; 
+} 
+
+/* ---- Navbar highlight ---- */ 
+.nav-links a.active { 
+color: #66fcf1; 
+border-bottom: 2px solid #66fcf1; }
