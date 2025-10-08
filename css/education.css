@@ -1,4 +1,14 @@
+/* Import your global styles */
 @import url('style.css');
+
+/* ---- Override any light backgrounds ---- */
+body {
+  background: #0b0c10 !important;
+  color: #fff;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
 
 /* ---- Interactive Gradient Background ---- */
 #interactive-bg {
@@ -12,20 +22,21 @@
   transition: background 0.2s ease;
 }
 
-/* ---- Content ---- */
+/* ---- Content Box ---- */
 .content {
   max-width: 800px;
   margin: 6rem auto 4rem;
   padding: 2rem;
-  background: rgba(11, 12, 16, 0.8);
+  background: rgba(20, 20, 25, 0.7); /* darker transparent card */
   border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
-  backdrop-filter: blur(6px);
+  box-shadow: 0 2px 20px rgba(0,0,0,0.4);
+  backdrop-filter: blur(8px);
   position: relative;
   z-index: 2;
   text-align: center;
 }
 
+/* ---- Text Styling ---- */
 .content h1 {
   color: #66fcf1;
   margin-bottom: 2rem;
@@ -43,7 +54,7 @@
   color: #c5c6c7;
 }
 
-/* Highlight active nav link */
+/* ---- Navbar highlight ---- */
 .nav-links a.active {
   color: #66fcf1;
   border-bottom: 2px solid #66fcf1;
