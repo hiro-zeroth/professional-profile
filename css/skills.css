@@ -1,0 +1,72 @@
+@import url('style.css');
+
+.content {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  color: #1a1a1a;
+  margin-bottom: 3rem;
+}
+
+.skills-section {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.skills-section h2 {
+  color: #4c6ef5;
+  margin-bottom: 1.5rem;
+}
+
+.skill {
+  margin-bottom: 1.2rem;
+}
+
+.skill p {
+  margin: 0 0 0.3rem;
+  font-weight: 500;
+}
+
+.progress-bar {
+  background: #e9ecef;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 10px;
+}
+
+.progress-bar span {
+  display: block;
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, #4c6ef5, #9775fa);
+  border-radius: 8px;
+  transition: width 1.5s ease-in-out;
+}
+
+.soft-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.soft-skills li {
+  background: #4c6ef5;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  transition: background 0.3s ease;
+}
+
+.soft-skills li:hover {
+  background: #364fc7;
+}

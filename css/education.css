@@ -1,0 +1,14 @@
+@import url('style.css');
+
+.content {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.edu-item {
+  margin-bottom: 2rem;
+}

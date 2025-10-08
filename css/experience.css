@@ -1,0 +1,55 @@
+@import url('style.css');
+
+.content {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #1a1a1a;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.exp-card {
+  background: #fff;
+  border-left: 5px solid #4c6ef5;
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.exp-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.exp-card h2 {
+  margin: 0;
+  color: #4c6ef5;
+}
+
+.exp-card h3 {
+  margin: 0.3rem 0 0.5rem;
+  color: #666;
+}
+
+.exp-card .date {
+  display: block;
+  font-size: 0.9rem;
+  color: #999;
+  margin-bottom: 0.8rem;
+}
+
+.exp-card p {
+  line-height: 1.6;
+  color: #444;
+}
