@@ -52,10 +52,27 @@ color: #45a29e;
 } .edu-item 
 
 p { 
-color: #c5c6c7; 
+color: #cfcfcf; 
 } 
 
 /* ---- Navbar highlight ---- */ 
 .nav-links a.active { 
 color: #66fcf1; 
 border-bottom: 2px solid #66fcf1; }
+
+body {
+  min-height: 100vh; /* full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* pushes footer to the bottom */
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  color: #c5c6c7;
+  margin-top: auto; /* stick it to the bottom */
+}
