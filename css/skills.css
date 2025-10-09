@@ -1,30 +1,65 @@
 @import url('style.css');
 
+/* ---- Base Layout ---- */
+body {
+  background: #0b0c10 !important;
+  color: #c5c6c7;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---- Interactive Gradient Background ---- */ 
+#interactive-bg { 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  z-index: -1; 
+  background: radial-gradient(circle at center, #1f2833, #0b0c10); 
+  transition: background 0.2s ease; 
+}
+
+/* ---- Main Content ---- */
 .content {
   max-width: 900px;
-  margin: 4rem auto;
+  margin: 6rem auto 4rem;
   padding: 2rem;
+  background: rgba(20, 20, 25, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.4);
+  backdrop-filter: blur(8px);
+  position: relative;
+  z-index: 2;
 }
 
 h1 {
   text-align: center;
-  color: #1a1a1a;
+  color: #66fcf1;
   margin-bottom: 3rem;
 }
 
+/* ---- Skills Section ---- */
 .skills-section {
-  background: #fff;
+  background: rgba(15, 15, 20, 0.9);
+  border-left: 5px solid #45a29e;
+  border-radius: 10px;
   padding: 2rem;
-  border-radius: 12px;
   margin-bottom: 3rem;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.4);
 }
 
 .skills-section h2 {
-  color: #4c6ef5;
+  color: #66fcf1;
   margin-bottom: 1.5rem;
 }
 
+/* ---- Technical Skills ---- */
 .skill {
   margin-bottom: 1.2rem;
 }
@@ -32,10 +67,11 @@ h1 {
 .skill p {
   margin: 0 0 0.3rem;
   font-weight: 500;
+  color: #c5c6c7;
 }
 
 .progress-bar {
-  background: #e9ecef;
+  background: rgba(50, 50, 60, 0.8);
   border-radius: 8px;
   overflow: hidden;
   height: 10px;
@@ -45,11 +81,12 @@ h1 {
   display: block;
   height: 100%;
   width: 0;
-  background: linear-gradient(90deg, #4c6ef5, #9775fa);
+  background: linear-gradient(90deg, #66fcf1, #45a29e);
   border-radius: 8px;
   transition: width 1.5s ease-in-out;
 }
 
+/* ---- Soft Skills ---- */
 .soft-skills {
   display: flex;
   flex-wrap: wrap;
@@ -59,14 +96,29 @@ h1 {
 }
 
 .soft-skills li {
-  background: #4c6ef5;
-  color: #fff;
+  background: linear-gradient(90deg, #45a29e, #66fcf1);
+  color: #0b0c10;
   padding: 0.6rem 1.2rem;
   border-radius: 20px;
   font-size: 0.95rem;
-  transition: background 0.3s ease;
+  font-weight: 600;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .soft-skills li:hover {
-  background: #364fc7;
+  transform: translateY(-3px);
+  box-shadow: 0 0 10px rgba(102, 252, 241, 0.4);
+}
+
+/* ---- Footer ---- */
+main {
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  color: #c5c6c7;
+  margin-top: auto;
+  background: transparent;
 }

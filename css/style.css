@@ -9,6 +9,8 @@
 body {
   color: #fff;
   overflow-x: hidden;
+  background: #3F5EFB;
+background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
 }
 
 /* Particles Background */
@@ -18,9 +20,10 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #0b0c10;
+  background: linear-gradient(180deg, #0b0c10 0%, #1f2833 100%);
   z-index: -1;
 }
+
 
 /* Navbar */
 .navbar {
