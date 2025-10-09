@@ -46,9 +46,30 @@ color: #66fcf1;
 margin-bottom: 2rem; 
 } 
 
-.edu-item { 
-margin-bottom: 2rem; 
-} 
+.edu-item {
+  background: rgba(20, 20, 25, 0.7);
+  border-left: 5px solid #66fcf1; /* teal accent line */
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.edu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(102, 252, 241, 0.2);
+}
+
+.edu-item p {
+  line-height: 1.6;
+  color: #cfcfcf;
+}
+
+.content {
+  background: rgba(11, 12, 16, 0.8);
+}
+
 
 .edu-item h2 { 
 color: #45a29e; 
