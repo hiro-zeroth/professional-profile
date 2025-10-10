@@ -89,10 +89,10 @@ Design Principles
 
 Author
 
-Michelle Ulandy
+Michelle Ulanday
 GitHub: hiro-zeroth
 Email: michellegabrielleulanday@gmai.com
-© 2025 Michelle Ulandy. All Rights Reserved.
+© 2025 Michelle Ulanday. All Rights Reserved.
 
 
 
