@@ -119,6 +119,5 @@ footer {
   text-align: center;
   padding: 1rem 0;
   color: #c5c6c7;
-  margin-top: auto;
-  background: transparent;
+  margin-top: auto; /* stick it to the bottom */
 }

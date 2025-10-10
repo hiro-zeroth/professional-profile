@@ -1,6 +1,5 @@
 /* Import your global styles */
-@import url('style.css'); 
-
+@import url('style.css');
 /* ---- Base Layout ---- */
 body {
   background: #0b0c10 !important;
@@ -13,39 +12,34 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-/* ---- Interactive Gradient Background ---- */ 
-#interactive-bg { 
-position: fixed; 
-top: 0; 
-left: 0; 
-width: 100%; 
-height: 100%; 
-z-index: -1; 
-background: radial-gradient(circle at center, #1f2833, #0b0c10); 
-transition: background 0.2s ease; 
-} 
-
-/* ---- Content Box ---- */ 
-.content { 
-max-width: 800px; 
-margin: 6rem auto 4rem; 
-padding: 2rem; background: rgba(20, 20, 25, 0.7); 
-
-/* darker transparent card */ 
-border-radius: 10px; 
-box-shadow: 0 2px 20px rgba(0,0,0,0.4); 
-backdrop-filter: blur(8px); 
-position: relative; z-index: 2; 
-text-align: center; 
-} 
-
-/* ---- Text Styling ---- */ 
-.content h1 { 
-color: #66fcf1; 
-margin-bottom: 2rem; 
-} 
-
+/* ---- Interactive Gradient Background ---- */
+#interactive-bg {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -1;
+background: radial-gradient(circle at center, #1f2833, #0b0c10);
+transition: background 0.2s ease;
+}
+/* ---- Content Box ---- */
+.content {
+max-width: 800px;
+margin: 6rem auto 4rem;
+padding: 2rem; background: rgba(20, 20, 25, 0.7);
+/* darker transparent card */
+border-radius: 10px;
+box-shadow: 0 2px 20px rgba(0,0,0,0.4);
+backdrop-filter: blur(8px);
+position: relative; z-index: 2;
+text-align: center;
+}
+/* ---- Text Styling ---- */
+.content h1 {
+color: #66fcf1;
+margin-bottom: 2rem;
+}
 .edu-item {
   background: rgba(20, 20, 25, 0.7);
   border-left: 5px solid #66fcf1; /* teal accent line */
@@ -55,45 +49,26 @@ margin-bottom: 2rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .edu-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 30px rgba(102, 252, 241, 0.2);
 }
-
 .edu-item p {
   line-height: 1.6;
   color: #cfcfcf;
 }
-
 .content {
   background: rgba(11, 12, 16, 0.8);
 }
-
-
-.edu-item h2 { 
-color: #45a29e; 
-} .edu-item 
-
-p { 
-color: #cfcfcf; 
-} 
-
-/* ---- Navbar highlight ---- */ 
-.nav-links a.active { 
-color: #66fcf1; 
-border-bottom: 2px solid #66fcf1; }
-
-body {
-  min-height: 100vh; /* full viewport height */
-  display: flex;
-  flex-direction: column;
+.edu-item h2 {
+color: #45a29e;
+} .edu-item
+p {
+color: #cfcfcf;
 }
-
 main {
   flex: 1; /* pushes footer to the bottom */
 }
-
 footer {
   text-align: center;
   padding: 1rem 0;
