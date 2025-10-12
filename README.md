@@ -79,13 +79,7 @@ Setup and Deployment
    * Upload to GitHub Pages via the repository’s Settings → Pages.
    * Or deploy using Netlify by linking your repository and selecting "Deploy Site".
 
-Design Principles
 
-* Clean and minimalist interface
-* Readable typography
-* Consistent color palette
-* Responsive and accessible layout
-* Smooth transitions and animations for interactivity
 
 Author
 
