@@ -79,6 +79,7 @@ Setup and Deployment
    * Upload to GitHub Pages via the repository’s Settings → Pages.
    * Or deploy using Netlify by linking your repository and selecting "Deploy Site".
 
+<<<<<<< HEAD
 
 
 Author
@@ -87,6 +88,22 @@ Michelle Ulanday
 GitHub: hiro-zeroth
 Email: michellegabrielleulanday@gmai.com
 © 2025 Michelle Ulanday. All Rights Reserved.
+=======
+Design Principles
+
+* Clean and minimalist interface
+* Readable typography
+* Consistent color palette
+* Responsive and accessible layout
+* Smooth transitions and animations for interactivity
+
+Author
+
+Michelle Ulandy
+GitHub: hiro-zeroth
+Email: michellegabrielleulanday@gmai.com
+© 2025 Michelle Ulandy. All Rights Reserved.
+>>>>>>> e3bba4d (Updated portfolio content)
 
 
 
